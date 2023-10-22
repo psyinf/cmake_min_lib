@@ -8,7 +8,7 @@ add_library(${PROJECT} STATIC)
 target_sources(${PROJECT}
 PRIVATE 
     src/minLib.cpp
-INTERFACE
+PUBLIC
     src/minLib.h
 )
 
