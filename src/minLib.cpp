@@ -1,4 +1,4 @@
-#include "minLib.h"
+#include <minLib.h>
 #include <iostream>
 
 minLib::ClassWithWarnings::ClassWithWarnings()
